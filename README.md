@@ -72,4 +72,4 @@ BlogBeat is a full-featured blogging system built with PHP and MySQL, designed f
 1. **Clone the repository**
 ```bash
 git clone https://github.com/ahsanaliSWE/BlogBeat.git
-cd bBlogBeat
+cd BlogBeat
