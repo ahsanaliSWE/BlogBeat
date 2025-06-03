@@ -30,6 +30,11 @@ BlogBeat is a full-featured blogging system built with PHP and MySQL, designed f
 ![Screenshot 2025-05-29 205308](https://github.com/user-attachments/assets/918ebaaa-15d6-4c16-8833-4490e14272a2)
 ![Screenshot 2025-05-29 205347](https://github.com/user-attachments/assets/5c2c66ee-fa3d-458f-addf-55d432f68593)
 
+### 🔹 Changed Blog Theme
+Customize how your blog looks! Here’s a preview of an updated theme style.
+![Screenshot 2025-06-03 165759](https://github.com/user-attachments/assets/5bb89389-6249-4aa2-b44a-21c784b1e585)
+
+
 
 
 ---
@@ -51,7 +56,9 @@ BlogBeat is a full-featured blogging system built with PHP and MySQL, designed f
   - Account approval/activation
   - New post in followed blogs
 - 🔄 Blog following/unfollowing system
+- 🎨 **Website theme customization in real-time**
 - 📊 Admin panel with blog/user/post/comment management
+
 
 ---
 
