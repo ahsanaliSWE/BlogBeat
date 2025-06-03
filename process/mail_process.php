@@ -22,7 +22,7 @@
             $mail->Port       = 587;                                    // TCP port to connect to
 
             //Recipients
-            $mail->setFrom('johndoedummy79@gmail.com', 'Admin');
+            $mail->setFrom('your-email@gmail.com', 'Admin');
             $mail->addAddress($email, $name);        // Add a recipient (user)
 
             // Content
@@ -46,7 +46,7 @@
 
             //$mail->addAttachment('users_reports/credentials.pdf', "credentials $name.pdf"); 
 
-            $mail->addReplyTo("johndoedummy79@gmail.com");
+            $mail->addReplyTo("your-email@gmail.com");
             // Send the email
             $mail->send();
             echo 'Message has been sent';
@@ -68,13 +68,13 @@
             $mail->isSMTP();                                            // Send using SMTP
             $mail->Host       = 'smtp.gmail.com';                       // Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-            $mail->Username = 'johndoedummy79@gmail.com';               // SMTP username
-            $mail->Password = 'rzxgrdjhdhnyowfe';                       // SMTP password
+            $mail->Username = 'your-email@gmail.com';                   // SMTP username
+            $mail->Password = 'your-password';                           // SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption
             $mail->Port       = 587;                                    // TCP port to connect to
 
             //Recipients
-            $mail->setFrom('johndoedummy79@gmail.com', 'Admin');
+            $mail->setFrom('your-email@gmail.com', 'Admin');
             $mail->addAddress($email, $name);        // Add a recipient (user)
 
             // Content
@@ -104,7 +104,7 @@
 
             //$mail->addAttachment('users_reports/credentials.pdf', "credentials $name.pdf"); 
 
-            $mail->addReplyTo("johndoedummy79@gmail.com");
+            $mail->addReplyTo("your-email@gmail.com");
             // Send the email
             $mail->send();
             echo 'Message has been sent';
@@ -126,13 +126,13 @@
             $mail->isSMTP();                                            // Send using SMTP
             $mail->Host       = 'smtp.gmail.com';                       // Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-            $mail->Username = 'johndoedummy79@gmail.com';               // SMTP username
-            $mail->Password = 'rzxgrdjhdhnyowfe';                       // SMTP password
+            $mail->Username = 'your-email@gmail.com';                   // SMTP username
+            $mail->Password = 'your-password';                          // SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption
             $mail->Port       = 587;                                    // TCP port to connect to
 
             //Recipients
-            $mail->setFrom('johndoedummy79@gmail.com', 'Admin');
+            $mail->setFrom('your-email@gmail.com', 'Admin');
             $mail->addAddress($email, $name);        // Add a recipient (user)
 
             // Content
@@ -203,7 +203,7 @@
             $mail->Body = $message;
 
 
-            $mail->addReplyTo("johndoedummy79@gmail.com");
+            $mail->addReplyTo("your-email@gmail.com");
             // Send the email
             $mail->send();
             echo "Email has been sent to: ";
@@ -225,12 +225,12 @@
                 $mail->isSMTP();
                 $mail->Host       = 'smtp.gmail.com';
                 $mail->SMTPAuth   = true;
-                $mail->Username   = 'johndoedummy79@gmail.com'; // replace
-                $mail->Password   = 'rzxgrdjhdhnyowfe'; // replace
+                $mail->Username   = 'your-email@gmail.com'; // replace
+                $mail->Password   = 'your-password'; // replace
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port       = 587;
 
-                $mail->setFrom('johndoedummy79@gmail.com', 'BlogBeat Notification');
+                $mail->setFrom('your-email@gmail.com', 'BlogBeat Notification');
                 foreach ($admins as $admin) {
                     $mail->addAddress($admin['email'], $admin['full_name']);
                 }
@@ -292,12 +292,12 @@
                 $mail->isSMTP();
                 $mail->Host       = 'smtp.gmail.com';
                 $mail->SMTPAuth   = true;
-                $mail->Username   = 'johndoedummy79@gmail.com'; // replace
-                $mail->Password   = 'rzxgrdjhdhnyowfe'; // replace
+                $mail->Username   = 'your-email@gmail.com'; // replace
+                $mail->Password   = 'your-password'; // replace
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port       = 587;
 
-                $mail->setFrom('johndoedummy79@gmail.com', 'BlogBeat Notification');
+                $mail->setFrom('your-email@gmail.com', 'BlogBeat Notification');
 
                 foreach ($followers as $follower) {
                     $full_name = $follower['first_name'] . ' ' . $follower['last_name'];
