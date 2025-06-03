@@ -199,6 +199,9 @@
                               <li class="nav-item">
                                 <a class="nav-link <?= $active_page == "feedback"? "active": ""?>" href="<?= $active_page == "Edit" ? "admin/manage_feedback.php" : "manage_feedback.php"?>">Feedback</a>
                               </li>
+                              <li class="nav-item">
+                                <a class="nav-link <?= $active_page == "followers"? "active": ""?>" href="<?= $active_page == "Edit" ? "admin/manage_followers.php" : "manage_followers.php"?>">Followers</a>
+                              </li>
                             </ul>
                 
                                 <div class="row me-1">

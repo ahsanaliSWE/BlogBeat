@@ -7,7 +7,7 @@
         $rejected_user_count = $db->fetch_one("SELECT COUNT(*) as total FROM user WHERE is_approved = 'Rejected'")['total'] ?? 0;
         //$approved_user_count = $db->fetch_one("SELECT COUNT(*) as total FROM user WHERE is_approved = 'Approved'")['total'] ?? 0;
         //$active_user_count = $db->fetch_one("SELECT COUNT(*) as total FROM user WHERE is_active = 1")['total'] ?? 0;
-        $inactive_user_count = $db->fetch_one("SELECT COUNT(*) as total FROM user WHERE is_active = 0")['total'] ?? 0;
+        $inactive_user_count = $db->fetch_one("SELECT COUNT(*) as total FROM user WHERE is_active = 'InActive'")['total'] ?? 0;
         
         $blog_count = $db->fetch_one("SELECT COUNT(*) as total FROM blog")['total'] ?? 0;
         //$active_blog_count = $db->fetch_one("SELECT COUNT(*) as total FROM blog WHERE blog_status = 'active'")['total'] ?? 0;

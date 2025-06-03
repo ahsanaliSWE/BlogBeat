@@ -52,7 +52,7 @@
                     <td><?= $count ?></td>
                     <td><?= $feedback['user_name'] ?></td>
                     <td><?= $feedback['user_email'] ?></td>
-                    <td><?= $feedback['feedback'] ?></td>
+                    <td><?= substr($feedback['feedback'], 0, 200) ?>...</td>
                     <td><?= $feedback['created_at'] ?></td>
                 </tr>
             <?php $count++;

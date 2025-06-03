@@ -71,6 +71,9 @@
                       
                       General::management_card("Feedback", "fas fa-envelope-open-text", "View and respond to user feedback or support messages.", 
                                               "text-danger", "View Feedback", "manage_feedback.php");
+
+                      General::management_card("Followers", "fas fa-users", "Manage followers, view their profiles, and control follow requests.",
+                                              "text-light", "Manage Followers", "manage_followers.php");
                 ?>
   
               </div>
