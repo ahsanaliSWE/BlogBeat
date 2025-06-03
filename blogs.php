@@ -11,6 +11,7 @@
     include('require/general.php');
 
     General::site_header("Blogs");
+    
 
     if (isset($_SESSION['user'])) {
         General::site_navbar(true, $_SESSION['user']['first_name'], $_SESSION['user']['last_name'], $_SESSION['user']['user_image'], "blogs");

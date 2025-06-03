@@ -43,6 +43,19 @@
                             if ($result["is_active"] == "Active") {
 
                                 $_SESSION["user"] = $result;
+
+                                $query = "SELECT * FROM setting WHERE user_id = ".$result['user_id'];
+
+                                $settings = $db->fetch_all($query);
+
+                                $themes = [];
+                                foreach ($settings as $setting) {
+                                    $themes[$setting['setting_key']] = $setting['setting_value'];
+                                }
+                                
+                                // Store in session
+                                $_SESSION['themes'] = $themes;
+
                                 header("Location: ../home.php?login=success");
 
                             }elseif ($result["is_active"] == "InActive"){

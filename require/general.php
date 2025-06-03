@@ -33,7 +33,7 @@
                   }
                 </style>
                 </head>
-                <body class="bg-warning">
+                <body style="background-color: <?= $_SESSION['themes']['background_color'] ?? '#ffc107' ?>; font-family: <?= $_SESSION['themes']['font_style'] ?? 'Arial' ?>;">
                         
                     <?php
                         if($show_on_mobile){
@@ -124,6 +124,7 @@
                                           <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="navbarUserDropdown">
                                             <li><a class="dropdown-item" href="edit_profile.php">Edit Profile</a></li>
                                             <li><a class="dropdown-item" href="following_blogs.php">Following blog</a></li>
+                                            <li><a class="dropdown-item" href="settings.php">Settings</a></li>
                                             <li><hr class="dropdown-divider"></li>
                                             <li><a class="dropdown-item text-danger" href="logout.php"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
                                           </ul>
@@ -214,7 +215,6 @@
                                       </a>
                                     <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="navbarUserDropdown">
                                       <li><a class="dropdown-item" href="../edit_profile.php">Edit Profile</a></li>
-                                      <li><a class="dropdown-item" href="following_blogs.php">Setting</a></li>
                                       <li><hr class="dropdown-divider"></li>
                                       <li><a class="dropdown-item text-danger" href="../logout.php"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
                                     </ul>
