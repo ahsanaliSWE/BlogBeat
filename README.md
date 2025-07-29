@@ -1,4 +1,4 @@
-<img width="3140" height="1996" alt="localhost_hidaya_blogbeat_settings php" src="https://github.com/user-attachments/assets/a8f8d379-6a14-4171-b336-85f7c556f21b" /># 📝 BlogBeat - PHP Blogging Platform
+# 📝 BlogBeat - PHP Blogging Platform
 
 BlogBeat is a full-featured blogging system built with PHP and MySQL, designed for content creators and readers alike. It supports dynamic blog creation, user registration, commenting, blog following, category filtering, post attachments, and admin panel management — all wrapped in a clean Bootstrap-based UI.
 
