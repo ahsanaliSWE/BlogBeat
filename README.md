@@ -21,8 +21,9 @@ BlogBeat is a full-featured blogging system built with PHP and MySQL, designed f
 <img width="3140" height="3792" alt="localhost_hidaya_blogbeat_view_post php_blog_id=22 post_id=37" src="https://github.com/user-attachments/assets/6d78c6e6-437b-4d4d-8c7c-e888b0c1015f" />
 
 ### 🔹 Admin Dashboard
-<img width="3140" height="3788" alt="localhost_hidaya_blogbeat_admin_admin_dashboard php_login=success" src="https://github.com/user-attachments/assets/70914f5f-f681-48e7-bd5f-cf613bc413e1" />
-![Screenshot 2025-05-29 205347](https://github.com/user-attachments/assets/5c2c66ee-fa3d-458f-addf-55d432f68593)
+<img width="3140" height="3788" alt="localhost_hidaya_blogbeat_admin_admin_dashboard php_login=success" src="https://github.com/user-attachments/assets/9bc3a92c-a50c-4436-b584-0c32168aa901" />
+<img width="3140" height="1978" alt="localhost_hidaya_blogbeat_admin_manage_users php" src="https://github.com/user-attachments/assets/f349bbda-5999-4f74-8dfb-16f640bfa507" />
+
 
 ### 🔹 Changed Blog Theme
 Customize how your blog looks! Here’s a preview of an updated theme style.
