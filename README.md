@@ -6,6 +6,10 @@ BlogBeat is a full-featured blogging system built with PHP and MySQL, designed f
 
 ## 📸 Screenshots
 
+### 🔹 ERD (Entity Relationship Diagram)
+![blogbeatfinal](https://github.com/user-attachments/assets/c8c8a69b-6910-4363-bc9e-742baef305ca)
+
+
 ### 🔹 Home Page
 ![Screenshot 2025-05-29 204908](https://github.com/user-attachments/assets/e26c673a-9226-43e5-9687-2bcf5cb863b8)
 ![Screenshot 2025-05-29 204932](https://github.com/user-attachments/assets/7d4d11ed-a5f9-49d2-bae4-bbfef1f051b5)
