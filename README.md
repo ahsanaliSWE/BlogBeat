@@ -1,4 +1,4 @@
-# 📝 BlogBeat - PHP Blogging Platform
+<img width="3140" height="1996" alt="localhost_hidaya_blogbeat_settings php" src="https://github.com/user-attachments/assets/a8f8d379-6a14-4171-b336-85f7c556f21b" /># 📝 BlogBeat - PHP Blogging Platform
 
 BlogBeat is a full-featured blogging system built with PHP and MySQL, designed for content creators and readers alike. It supports dynamic blog creation, user registration, commenting, blog following, category filtering, post attachments, and admin panel management — all wrapped in a clean Bootstrap-based UI.
 
@@ -11,33 +11,22 @@ BlogBeat is a full-featured blogging system built with PHP and MySQL, designed f
 
 
 ### 🔹 Home Page
-![Screenshot 2025-05-29 204908](https://github.com/user-attachments/assets/e26c673a-9226-43e5-9687-2bcf5cb863b8)
-![Screenshot 2025-05-29 204932](https://github.com/user-attachments/assets/7d4d11ed-a5f9-49d2-bae4-bbfef1f051b5)
-![Screenshot 2025-05-29 204956](https://github.com/user-attachments/assets/ddbf3934-df0e-41ff-a6ff-4661b0809810)
-
-
+<img width="3140" height="4216" alt="localhost_hidaya_blogbeat_home php" src="https://github.com/user-attachments/assets/7ead56e8-a871-4bb8-8dfe-ae76a41e2158" />
 
 ### 🔹 Blog View
-![Screenshot 2025-05-29 205019](https://github.com/user-attachments/assets/2334a43f-6674-4c05-93fd-64a4857f5b5a)
-![Screenshot 2025-05-29 205047](https://github.com/user-attachments/assets/b375f06f-5098-4406-9db0-73ac032703f3)
-
-
+<img width="3140" height="3216" alt="localhost_hidaya_blogbeat_blogs php" src="https://github.com/user-attachments/assets/7891f7aa-15d9-4dce-a0cd-9fc34afc3b91" />
+<img width="3140" height="2604" alt="localhost_hidaya_blogbeat_view_blog php_blog_id=21" src="https://github.com/user-attachments/assets/2301abb8-bdf7-4cf5-ad6a-d25ab7a32dbb" />
 
 ### 🔹 Post Detail & Comments
-![Screenshot 2025-05-29 205128](https://github.com/user-attachments/assets/578f087d-3cec-445e-985e-b0934c2f1eb0)
-![Screenshot 2025-05-29 205146](https://github.com/user-attachments/assets/2a44f956-3c46-474f-ba98-bda943c14039)
-
-
+<img width="3140" height="3792" alt="localhost_hidaya_blogbeat_view_post php_blog_id=22 post_id=37" src="https://github.com/user-attachments/assets/6d78c6e6-437b-4d4d-8c7c-e888b0c1015f" />
 
 ### 🔹 Admin Dashboard
-![Screenshot 2025-05-29 205213](https://github.com/user-attachments/assets/be1414ce-6040-43db-b7c6-1188ed953416)
-![Screenshot 2025-05-29 205308](https://github.com/user-attachments/assets/918ebaaa-15d6-4c16-8833-4490e14272a2)
+<img width="3140" height="3788" alt="localhost_hidaya_blogbeat_admin_admin_dashboard php_login=success" src="https://github.com/user-attachments/assets/70914f5f-f681-48e7-bd5f-cf613bc413e1" />
 ![Screenshot 2025-05-29 205347](https://github.com/user-attachments/assets/5c2c66ee-fa3d-458f-addf-55d432f68593)
 
 ### 🔹 Changed Blog Theme
 Customize how your blog looks! Here’s a preview of an updated theme style.
-![Screenshot 2025-06-03 165759](https://github.com/user-attachments/assets/5bb89389-6249-4aa2-b44a-21c784b1e585)
-
+<img width="3140" height="1996" alt="localhost_hidaya_blogbeat_settings php" src="https://github.com/user-attachments/assets/6cf7c0c6-b095-4889-aea7-962c01348597" />
 
 
 
